@@ -9,7 +9,7 @@ except ImportError as err:
     logger.error(f"Import error {err.args}")
 
 
-class afvalkalender:
+class mainDataCollector:
     def __init__(self,
         provider,
         postalCode,
